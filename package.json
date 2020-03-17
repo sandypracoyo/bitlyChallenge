@@ -1,0 +1,28 @@
+{
+	"name": "bitlyChallenge",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app",
+		"dev": "nodemon app"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"crypto": "^1.0.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mysql2": "^2.1.0",
+		"nodemon": "^2.0.2",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0",
+		"shortid": "^2.2.15",
+		"valid-url": "^1.0.9"
+	},
+	"dependencies": {
+		"public-ip": "^4.0.0"
+	}
+}
