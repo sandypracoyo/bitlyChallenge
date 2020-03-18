@@ -1,6 +1,5 @@
 # Bitly clone Rest API
 Project cloning bit ly, ini hanya rest api/backend
-
 Before using please...
 ```
 npm install
@@ -20,6 +19,14 @@ npm run dev
 | `/url`          | `GET`           |Yes        |List All shortlink from current account|
 |`/url/:id`       | `DELETE`        | Yes       |Delete shortlink with id from current                                                  account|
 |`/:code`      | `GET`        | No       |Shortlink and it will be automatic redirect to original url|
+
+example for .env file
+```
+PORT = 5000
+MYSQL_USERNAME = root
+MYSQL_DATABASE = urlshort
+SECRET_KEY = secretkey
+```
 
 ## Fitur
 - Passport js
